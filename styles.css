@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+.bg-black {
+  background-color: black;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.bg-purple {
+  background-color: rgb(17, 1, 17);
+}
+
+/* Column Overflow */
+.left-box {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.right-box {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 575.98px) {
+  .left-box, .right-box {
+    height: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .left-box, .right-box {
+    height: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .left-box, .right-box {
+    height: auto;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .left-box, .right-box {
+    height: auto;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .left-box, .right-box {
+    height: auto;
+  }
+}
+
+.float-img {
+  float: left;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  max-width: 200px; /* Sesuaikan ukuran gambar */
+}
+
+p{
+font-size: 19px;
+font-weight: 3;
+}
+
+.box{
+  font-size: 19px;
+font-weight: 3;
+}
